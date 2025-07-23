@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> HTML- FORMs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+    </head>
+    <body>
+    
+<form >
+   <div>
+     <label for="username"> name: </label>
+<input id="username" type="text" value="hello all"  />
+<input  type="tel"   />
+<input type="date"   />
+<input type="datetime-local"   />
+<input type="time"   />
+<input type="month"   />
+   </div>
+
+   <div>
+     <label for="useremail"> Email: </label>
+
+<input  id="useremail"  type="email"  placeholder="ENTER EMAIL" autofocus required/>
+   </div>
+   <div>
+     <label> password: </label>
+
+<input  type="password" placeholder="enter password" readonly hidden/>
+   </div>
+    <label> lucky no:</label>
+
+<input  type="number" placeholder="enter number" min="3" max="233" minlength="2" required/>
+    <label> select color :</label>
+
+<!-- <input  type="color" /> -->
+<div>
+    <b >Gender: </b>
+    <input type="radio" name="gender" id="g_male" value="male"> <label for="g_male">Male</label>
+    <input type="radio" name="gender" value="female" id="g_Female">  <label for="g_Female">Female</label>
+</div>
+
+
+<div>
+    <b >Skills: </b>
+    <input type="checkbox" name="skills" id="skillHtml" value="html"> <label for="skillHtml">Html</label>
+    <input type="checkbox" name="skills" id="skillcss" value="css"> <label for="skillcss">css</label>
+    <input type="checkbox" name="skills" id="skilljs" value="js"> <label for="skilljs">js</label>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-0-circle" viewBox="0 0 16 16">
+  <path d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99M8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895"/>
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8"/>
+</svg>
+<div>
+    <caption>States</caption>
+    <select>
+        <option value="" >--Select your state --</option>
+        <option value="ap">ap</option>
+        <option value="ts">ts</option>
+        <option value="ka" >ka</option>
+        <option value="up" selected>up</option>
+        <option value="tn">tn</option>
+    </select>
+</div>
+<progress value="8" max="10" title="100"></progress>
+<div>
+    <label for="states" title="eugviyg">select state</label>
+   <input list="state" for="state" id="states">
+    <datalist id="state">
+      <option value="ap">
+      <option value="asd">
+      <option value="sfa">
+      <option value="fd">
+      <option value="er">
+      <option value="ve">
+      <option value="vdda">
+      <option value="add">
+      <option value="duj">
+      <option value="wfda">
+      <option value="ewi">
+      <option value="tsq">
+      <option value="ts">
+    </datalist>
+</div>
+
+<textarea rows="8" cols="50">wdofiguh</textarea>
+<div>
+    <input type="file" >
+<input type="button" value="save" onclick="alert('hello all')">
+<!-- <input type="submit" value="submit"> -->
+<!-- <input type="reset" value="reset"> -->
+
+<!-- <button type="button">click me </button>
+<button type="submit"> <img src="./assests/imgs/logo.png"></button>
+<button type="reset"> <h1>hello</h1></button> -->
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
